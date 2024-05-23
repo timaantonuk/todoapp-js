@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href='./images/favicon.png' type="image/x-icon">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    
+    <title>Todo App</title>
+</head>
+<body>
+
+    <div class="app">
+
+     <header class="header">
+         <h1 class="heading">Todo list</h1>
+         <h2 class="todos-quantity">Todos quantity: 0</h2>
+
+         <form action="#" class="create-form">
+             <label>
+                 <input type="text" class="create-input" placeholder="Create your task...">
+             </label>
+                <button type="button" class="create-button">Create todo</button>
+         </form>
+     </header>
+
+    <main class="main">
+        <div class="buttons-wrapper">
+            <button type="button" class="all-todos-button">All todos</button>
+            <button type="button" class="important-todos-button">Important</button>
+        </div>
+
+        <p class="no-todos">No todos</p>
+
+        <ul class="todos-list">
+        </ul>
+
+        <label class="find-label">
+            <input type="text" class="find-input" placeholder="Find todo...">
+        </label>
+
+        <button type="button" class="theme-switcher">Switch theme</button>
+
+    </main>
+
+    </div>
+
+</body>
+</html>
