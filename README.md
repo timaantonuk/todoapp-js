@@ -1,6 +1,6 @@
 # Todo List JavaScript
 
-![todoapp](https://github.com/timaantonuk/todo-list-js/assets/111820939/3e3721bc-6e8d-4c12-bc9d-cfb37c85a553)
+![todoapp](https://github.com/timaantonuk/todoapp-js/assets/111820939/df7089f5-9754-442b-801a-d769857b2283)
 
 Create, find, filter, and mark your todos as done inside my brand new app with a geek-oriented design.
 
