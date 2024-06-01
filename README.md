@@ -21,4 +21,4 @@ The Todo App allows you to create, filter, find, and delete tasks directly in yo
 - **Persistent Storage**: Todos are saved in `localStorage` and are loaded when you revisit the app.
 
 ## Usage
-You can access the app [here](https://timaantonuk.github.io/todoapp-js/).
+You can access the app [here](https://storied-valkyrie-032c2b.netlify.app/).
