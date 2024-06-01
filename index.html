@@ -9,8 +9,10 @@
     <link rel="shortcut icon" href='./images/favicon.png' type="image/x-icon">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
-    
+    <script type="module" src="./scripts/dataAPI.js"></script>
+    <script type="module" src="./scripts/store.js"></script>
+    <script type="module" src="scripts/index.js" defer></script>
+
     <title>Todo App</title>
 </head>
 <body>
@@ -23,15 +25,15 @@
 
          <form action="#" class="create-form">
              <label>
-                 <input type="text" class="create-input" placeholder="Create your task...">
+                 <input name="create-input" type="text" class="create-input" placeholder="Create your task...">
              </label>
-                <button type="button" class="create-button">Create todo</button>
+                <button type="submit" class="create-button">Create todo</button>
          </form>
      </header>
 
     <main class="main">
         <div class="buttons-wrapper">
-            <button type="button" class="all-todos-button">All todos</button>
+            <button type="button" class="all-todos-button selected">All todos</button>
             <button type="button" class="important-todos-button">Important</button>
         </div>
 
